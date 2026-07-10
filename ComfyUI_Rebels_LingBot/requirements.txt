@@ -1,0 +1,6 @@
+diffusers>=0.37.0
+transformers>=4.57.0
+accelerate
+safetensors
+einops
+numpy
