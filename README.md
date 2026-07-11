@@ -1,5 +1,8 @@
 # ComfyUI_Rebels_LingBot
 
+
+## UPDATE! - added a prompt rebuilder node to help restructure natural language prompts into proper LingBot Json Format!!!!
+
 ComfyUI custom nodes for **LingBot-Video-Dense-1.3B** (Robbyant) — text-to-video and
 text+image-to-video on consumer GPUs. Built and tested on an **RTX 3070 8GB / 16GB RAM**.
 
