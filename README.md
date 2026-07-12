@@ -1,4 +1,4 @@
-# ComfyUI_Rebels_LingBot (30B-3B AND 1.3B)
+# ComfyUI_Rebels_LingBot (30B-3B & 1.3B)
 
 ComfyUI custom nodes for **LingBot-Video** (Robbyant) — text-to-video and text+image-to-video
 on consumer GPUs. Built and tested on an **RTX 3070 8GB / 16GB RAM**.
