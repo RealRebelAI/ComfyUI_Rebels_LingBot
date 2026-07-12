@@ -19,6 +19,72 @@ movement are explicit fields. Feed it plain text (or ad-hoc JSON) and exposure i
 unconditioned — output drifts dark and loses motion. The **LingBot Structured Prompt**
 node builds the exact schema the model expects, so this is the node you start from.
 
+## example prompt:
+
+"{
+  "comprehensive_description": {
+    "scene_content_description": "A tuxedo cat sits on a wooden ledge in a dim alley, with a red lantern glowing warmly behind it.",
+    "camera_movement_description": "The camera slowly dollies past the cat and down the alley."
+  },
+  "prominent_elements": [
+    {
+      "name": "tuxedo cat",
+      "description": "A feline with a black and white tuxedo coat resting on a wooden ledge.",
+      "actions": [
+        {
+          "timestamp": "[0.0s - 5.0s]",
+          "action": "Sits still on the ledge."
+        }
+      ],
+      "location": "Center",
+      "relative_size": "medium",
+      "shape_and_color": "Feline shape with black fur and white patches on the chest and paws.",
+      "texture": "Soft, sleek fur.",
+      "appearance_details": "Contrasting black and white markings.",
+      "relationship": "The primary subject sitting in front of the lantern.",
+      "orientation": "Facing forward.",
+      "pose": "Sitting.",
+      "expression": "Neutral.",
+      "clothing": "",
+      "gender": "",
+      "skin_tone_and_texture": "",
+      "number_of_objects": "1"
+    },
+    {
+      "name": "dim alley",
+      "description": "A dark, atmospheric alleyway featuring a wooden ledge and a brightly glowing red lantern.",
+      "actions": [
+        {
+          "timestamp": "[0.0s - 5.0s]",
+          "action": ""
+        }
+      ],
+      "location": "Background and foreground",
+      "relative_size": "dominant",
+      "shape_and_color": "Dark, shadowed surroundings with a bright red light source.",
+      "texture": "Weathered wood on the ledge and rough alley walls.",
+      "appearance_details": "Dimly lit with strong contrast and a red ambient glow.",
+      "relationship": "Surrounds the cat and provides atmospheric backlighting.",
+      "orientation": "Deep linear perspective down the alley.",
+      "pose": "",
+      "expression": "",
+      "clothing": "",
+      "gender": "",
+      "skin_tone_and_texture": "",
+      "number_of_objects": "1"
+    }
+  ],
+  "camera_info": {
+    "color": "Natural",
+    "frame_size": "Medium",
+    "shot_type_angle": "Eye level",
+    "lens_size": "Medium",
+    "composition": "Balanced",
+    "lighting": "Soft light",
+    "lighting_type": "Daylight"
+  }
+}"
+
 ## Nodes
 
 | Node | What it does |
